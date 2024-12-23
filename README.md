@@ -1,7 +1,7 @@
 # 30 Musical Instrument
 ![Background Image](assets/background.png)
 
-## Overview Project
+## Deskripsi
 Proyek ini bertujuan untuk mengembangkan sistem klasifikasi citra untuk pengenalan dan identifikasi instrumen musik secara otomatis dengan memanfaatkan model deep learning ResNet50 dan VGG16. Sistem ini dirancang untuk menganalisis gambar instrumen musik dan mengklasifikasikannya ke dalam kategori yang sesuai. Dengan teknologi ini, diharapkan dapat meningkatkan efisiensi dan akurasi dalam proses identifikasi instrumen musik, yang dapat diaplikasikan pada berbagai bidang seperti pendidikan musik, manajemen data multimedia, hingga aplikasi pengarsipan budaya. Pemanfaatan arsitektur ResNet50 dan VGG16 memberikan keuntungan dalam mengolah fitur visual kompleks dari gambar, memastikan performa model yang andal dan skalabilitas yang tinggi. Proyek ini juga menjadi langkah awal dalam mengintegrasikan teknologi modern ke dalam pengenalan instrumen musik secara otomatis.
 
 ## Dataset
