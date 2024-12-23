@@ -3,32 +3,11 @@
 ## Author
 M. Rio Gunawan (202110370311026)
 
-## Deskripsi Proyek
-Proyek ini bertujuan untuk mengembangkan sistem klasifikasi citra instrumen musik menggunakan model deep learning. Latar belakang pengembangan proyek ini adalah untuk membantu pengenalan dan identifikasi instrumen musik secara otomatis berdasarkan gambar, yang memiliki potensi aplikasi di bidang edukasi, katalog digital, hingga industri kreatif.
+## Overview Project
+Proyek ini bertujuan untuk mengembangkan sistem klasifikasi citra untuk pengenalan dan identifikasi instrumen musik secara otomatis dengan memanfaatkan model deep learning ResNet50 dan VGG16. Sistem ini dirancang untuk menganalisis gambar instrumen musik dan mengklasifikasikannya ke dalam kategori yang sesuai. Dengan teknologi ini, diharapkan dapat meningkatkan efisiensi dan akurasi dalam proses identifikasi instrumen musik, yang dapat diaplikasikan pada berbagai bidang seperti pendidikan musik, manajemen data multimedia, hingga aplikasi pengarsipan budaya. Pemanfaatan arsitektur ResNet50 dan VGG16 memberikan keuntungan dalam mengolah fitur visual kompleks dari gambar, memastikan performa model yang andal dan skalabilitas yang tinggi. Proyek ini juga menjadi langkah awal dalam mengintegrasikan teknologi modern ke dalam pengenalan instrumen musik secara otomatis.
 
 ## Dataset
 Dataset yang digunakan berasal dari Kaggle dengan nama "Musical Instruments Image Classification" dan dapat diakses melalui tautan berikut: [Musical Instruments Image Classification](https://www.kaggle.com/datasets/gpiosenka/musical-instruments-image-classification). Dataset ini mencakup berbagai citra instrumen musik seperti gitar, piano, drum, dan lain-lain yang telah diklasifikasikan ke dalam beberapa kategori.
-
-## Langkah Instalasi
-1. Clone repositori proyek ini ke dalam komputer Anda:
-   ```bash
-   git clone <url-repo>
-   cd <nama-folder-repo>
-   ```
-2. Buat lingkungan virtual untuk mengelola dependencies:
-   ```bash
-   python -m venv env
-   source env/bin/activate  # Untuk Linux/MacOS
-   env\Scripts\activate    # Untuk Windows
-   ```
-3. Install dependencies yang diperlukan:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Jalankan aplikasi web menggunakan perintah berikut:
-   ```bash
-   streamlit run app.py
-   ```
 
 ## Deskripsi Model
 Proyek ini menggunakan dua model utama untuk klasifikasi citra:
