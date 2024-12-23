@@ -12,17 +12,21 @@ Proyek ini menggunakan dua model utama untuk klasifikasi citra:
 1. **ResNet50**: Model ini dikenal dengan arsitekturnya yang mendalam menggunakan residual connections, yang membantu mengatasi masalah vanishing gradient dan memungkinkan pelatihan model dengan banyak lapisan.
 2. **VGG16**: Model ini memiliki arsitektur yang sederhana namun efektif dengan layer-layer konvolusi yang disusun secara berurutan, ideal untuk pengenalan pola visual.
 
-Kinerja model dievaluasi menggunakan metrik akurasi, precision, recall, dan F1-score. Kedua model dioptimasi menggunakan dataset yang telah disiapkan dan dibandingkan performanya untuk menentukan model terbaik.
+### Link Model
+1. **ResNet50**: [Download Model](https://drive.google.com/file/d/1gmAV0MfD3aWf5wrtc5oL2YPvMK3eY6Xm/view?usp=drive_link)
+2. **VGG16**: [Download Model](https://drive.google.com/file/d/1nD6G8P7UEVdKPov2AjrWgtNh_RwycBtG/view?usp=sharing)
 
 ## Hasil dan Analisis
 Hasil evaluasi menunjukkan perbandingan performa antara ResNet50 dan VGG16 dalam mengklasifikasikan citra instrumen musik. Berikut adalah hasil metrik evaluasi:
 
-| Model    | Akurasi | Precision | Recall | F1-Score |
-|----------|---------|-----------|--------|----------|
-| ResNet50 | 99%     | 99%       | 99%    | 99%    |
-| VGG16    | 96%     | 97%       | 96%    | 96%    |
+1. **ResNet50** 
+![restnet50](https://github.com/user-attachments/assets/fe02500b-5e4d-4ebb-a04c-be18fa055ae7)
+![Screenshot 2024-12-23 130300](https://github.com/user-attachments/assets/18f85076-62c2-4c4c-b06f-3c99901d0799)
 
-Grafik perbandingan performa dapat dilihat pada aplikasi web yang telah disediakan. Berdasarkan analisis, ResNet50 menunjukkan hasil yang lebih baik dibandingkan VGG16 dalam pengklasifikasian dataset ini.
+2. **VGG16**
+![vgg16](https://github.com/user-attachments/assets/1b882998-8f6a-4673-8ce8-950d3881eb17)
+![Screenshot 2024-12-23 130345](https://github.com/user-attachments/assets/bb43cf83-e177-4f9b-88ef-e42313470bdb)
+
 
 ## Author
 M. Rio Gunawan (202110370311026)
